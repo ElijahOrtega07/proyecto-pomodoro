@@ -12,6 +12,7 @@ export default function Header({ currentTime, setCurrentTime, setTime }) {
     setTime(newTime * 60);
   }
 
+  
   return (
     <View style={{ flexDirection: "row" }}>
       {options.map((item, index) => (
