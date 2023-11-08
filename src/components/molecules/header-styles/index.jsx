@@ -1,6 +1,7 @@
 // /src/components/molecules/styles/headerStyles.js
 import { StyleSheet } from "react-native";
 
+
 export const headerStyles = StyleSheet.create({
   itemStyle: {
     alignItems: "center",
