@@ -8,6 +8,7 @@ export default function Timer({ time }) {
     .padStart(2, "0")} : ${(time % 60).toString()
     .padStart(2, "0")}`;
 
+
   return (
     <View style={timerStyles.container}>
       <Text style={timerStyles.time}>{formattedTime}</Text>
