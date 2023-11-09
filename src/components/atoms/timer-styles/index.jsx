@@ -15,5 +15,5 @@ export const timerStyles = StyleSheet.create({
     textAlign: "center",
     color: "#333333"
   }
-  
+
 });
